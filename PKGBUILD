@@ -1,6 +1,6 @@
 # Maintainer: Firas Zaidan <firas@zaidan.de>
 pkgdesc="ROS - This package contains a recent version of the Bayesian Filtering Library (BFL), distributed by the Orocos Project."
-url='http://ros.org/wiki/bfl'
+url='https://wiki.ros.org/bfl'
 
 pkgname='ros-melodic-bfl'
 pkgver='0.8.0'
