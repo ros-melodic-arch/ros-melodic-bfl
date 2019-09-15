@@ -4,9 +4,8 @@ url='https://wiki.ros.org/bfl'
 
 pkgname='ros-melodic-bfl'
 pkgver='0.8.0'
-_pkgver_patch=0
 arch=('any')
-pkgrel=1
+pkgrel=2
 license=('LGPL')
 
 ros_makedepends=()
@@ -27,9 +26,9 @@ depends=(${ros_depends[@]}
 # sha256sums=('SKIP')
 
 # Tarball version (faster download)
-_dir="bfl-release-release-melodic-bfl-${pkgver}-${_pkgver_patch}"
-source=("${pkgname}-${pkgver}-${_pkgver_patch}.tar.gz"::"https://github.com/ros-gbp/bfl-release/archive/release/melodic/bfl/${pkgver}-${_pkgver_patch}.tar.gz")
-sha256sums=('7cb6d1ea7e4f72fcac46f4b95bb8cfee260a9145300b7a5080f6e2f026ce2760')
+_dir="bfl-release-upstream-${pkgver}"
+source=("${pkgname}-${pkgver}.tar.gz"::"https://github.com/ros-gbp/bfl-release/archive/upstream/${pkgver}.tar.gz")
+sha256sums=('9720725d0a2b5f28a3c65ced1abf4623532b7af2d33934d05146fd6c0fce8b04')
 
 build() {
   # Use ROS environment variables
