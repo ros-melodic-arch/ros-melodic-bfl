@@ -4,7 +4,7 @@ url='https://wiki.ros.org/bfl'
 pkgname='ros-melodic-bfl'
 pkgver='0.8.0'
 arch=('i686' 'x86_64' 'aarch64' 'armv7h' 'armv6h')
-pkgrel=6
+pkgrel=7
 license=('LGPL')
 
 ros_makedepends=()
